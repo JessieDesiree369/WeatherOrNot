@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css"/>
+    <link rel="stylesheet" href=".\Assets\style.css"/>
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body">
+
+    <header class="justify-content-center bg-dark title-box d-flex">
+        <h1 class="text-light">Weather Dashboard</h1>
+    </header>
+
+    <main class="container-fluid">
+            <form id="search-form">
+                <label>Search for a City:</label>
+              <div class="row">
+                <div class="col-sm-8">
+                  <input type="text" id="search-input" class="rounded"/>
+                </div>
+                <div class="col-sm-4">
+                  <button type="submit" class="btn bg-primary">
+                    <span class="glyphicon glyphicon-search"></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+
+
+        <div class="col-sm-8container-fluid">
+              <h2 id="current-title"></h2>
+              <img id="current-weather-icon" class="d-inline" src="" alt=""/>
+            <p id="current-temperature"></p>
+            <p id="current-humidity"></p>
+            <p id="current-wind-speed"></p>
+            <p id="current-uv-index"></p>
+            <p class="rounded" id="current-number"></p>
+
+
+            <h2 id="future-forecast-title"></h2>
+            <div class="d-flex justify-content-between">
+              <div class="bg-primary rounded">
+                <p id="future-date-1"></p>
+                <img id="future-icon-1" src="" alt=""/>
+                <p id="future-temp-1"></p>
+                <p id="future-wind-speed-1"></p>
+                <p id="future-humidity-1"></p> 
+              </div>
+              <div class="bg-primary rounded">
+                <p id="future-date-2"></p>
+                <img id="future-icon-2" src="" alt=""/>
+                <p id="future-temp-2"></p>
+                <p id="future-wind-speed-2"></p>
+                <p id="future-humidity-2"></p>
+              </div>
+              <div class="bg-primary rounded">
+                <p id="future-date-3"></p>
+                <img id="future-icon-3" src="" alt=""/>
+                <p id="future-temp-3"></p>
+                <p id="future-wind-speed-3"></p>
+                <p id="future-humidity-3"></p>
+              </div>
+              <div class="bg-primary rounded">
+                <p id="future-date-4"></p>
+                <img id="future-icon-4" src="" alt=""/>
+                <p id="future-temp-4"></p>
+                <p id="future-wind-speed-4"></p>
+                <p id="future-humidity-4"></p>
+              </div>
+              <div class="bg-primary rounded">
+                <p id="future-date-5"></p>
+                <img id="future-icon-5" src="" alt=""/>
+                <p id="future-temp-5"></p>
+                <p id="future-humidity-5"></p>
+                <p id="future-wind-speed-5"></p>
+              </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src=".\Assets\script.js"></script>
+  </body>
+</html>
