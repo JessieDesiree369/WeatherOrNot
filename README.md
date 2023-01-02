@@ -1,8 +1,12 @@
 # WeatherOrNot
 
-# Link: https://jessiedesiree369.github.io/WeatherOrNot/
+# Deployment Link: https://jessiedesiree369.github.io/WeatherOrNot/
 
 <img width="465" alt="Screen Shot" src=".\Assets\WeatherOrNotImage.png">
 
-# Description
-   When the user searches for their city they are presented with the city's name, the dates for the present days' forecast as well as for the next 5 days' forecasts, which include temperatures, the humidity levels, wind speeds, and UV indexes.
+# Summary
+   This application will show you the present and five day forcast for your city including the humidity, wind speed, and UV index.
+
+# Instructions for Use
+   Use the search box to enter the name of your city.
+   Once you have entered the city name you will be presented with that city's five day forecast.
